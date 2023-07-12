@@ -10,10 +10,6 @@ int main() {
     {
         
         rem=ph%10;
-        if(arr[rem]==1)
-        {
-            break;
-        }
         arr[rem]=1;
         ph=ph/10;
     }
