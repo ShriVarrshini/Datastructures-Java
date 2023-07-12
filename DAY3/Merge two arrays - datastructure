@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a[]={};
-    int b[]={};
-    int c[]={};
+    int a[100]={};
+    int b[100]={};
+    int c[100]={};
     int na,nb,nc;
     printf("\nEnter number of elements in array a");
     scanf("%d",&na);
