@@ -23,6 +23,7 @@ void insert(struct node **head,int data)
 }
 int main()
 {
+    printf("\n Insertion at the end");
     struct node *head=malloc(sizeof(struct node));
     head->data=10;
     head->prev=NULL;
@@ -30,7 +31,6 @@ int main()
     insert(&head,20);
     insert(&head,30);
     insert(&head,40);
-    printf("\n Insertion at the beginning");
     struct node *temp=malloc(sizeof(struct node));
     temp=head;
     while(temp!=NULL)
